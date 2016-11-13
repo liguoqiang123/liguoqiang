@@ -1,0 +1,43 @@
+<!--个人信息-->
+<view class='mine-header'>
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+</view>
+<!--余额  积分优惠卷-->
+
+ <view class="member">
+            	<view class="a">
+                  <navigator class="d" href="money.html">
+            			<view class="b"> 100</view>
+            			<view>余额</view>
+            		</navigator>
+            	</view>
+            	<view class="a">
+                  <navigator class="c" href="">
+            			<view class="b">50</view>
+            			<view>积分</view>
+            		</navigator>
+            	</view>
+            	<view class="a">
+                <navigator class="e" href="">
+            			<view class="b">50</view>
+            			<view>优惠券</view>
+            		</navigator>
+            	</view>
+            </view>
+
+<!--钱包  服务地址  循环-->
+<view class="div1">
+<block wx:for="{{userlistInfo}}">  
+         <view class="weui_cell">
+            <view class="weui_cell_hd"> <navigator class="url" url="{{item.link}}"><image src="{{item.url}}"></image></navigator></view>
+            <view class="weui_cell_bd">
+                <view class="weui_cell_bd_p"> {{item.text}} </view>
+            </view>
+            </view>
+       </block>  
+</view>
+
+

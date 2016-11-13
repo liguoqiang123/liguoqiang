@@ -1,0 +1,29 @@
+  <view class="order">
+            	<view class="a">
+            		<view class="b"><i></i><span>家电清洗</span><b>待支付</b><em>剩余14分58秒</em></view>
+            		<view class="c"><image src="../images/add.png"></image><view class="d">天津市和平区黄河路1号</view></view>
+            		<view style="border-bottom: 1px solid #ddd;" class="c">
+            			<image  src="../images/time.png"></image>
+            			<view style="border-bottom: 0;" class="d">2016-05-01  周日  12：30上门</view>
+            		</view>
+            		<view class="e">
+            			<span>￥60</span>
+            			<a href="" class="current">立即支付</a>
+            			<a href="">取消订单</a>
+            		</view>
+            	</view>
+                  	<view class="a">
+            		<view class="b"><i></i><span>家电清洗</span><b>已完成</b></view>
+            		<view class="c"><image src="../images/add.png"></image><view class="d">天津市和平区黄河路1号</view></view>
+            		<view style="border-bottom: 1px solid #ddd;" class="c">
+            			<image  src="../images/time.png"></image>
+            			<view style="border-bottom: 0;" class="d">2016-05-01  周日  12：30上门</view>
+            		</view>
+            		<view class="e">
+            			<span>￥60</span>
+            			<a href="" class="cuent">再来一单</a>
+            			<a href="">评价订单</a>
+            		</view>
+            	</view>
+
+ </view>

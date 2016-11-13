@@ -1,0 +1,39 @@
+.slide-image{  
+        width: 100%;  
+    } 
+ .image_frame{  
+  height: 200rpx;
+        width: 100%;  
+    } 
+.navs {
+  display: flex;
+}
+
+.nav-item {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20rpx;
+}
+
+.nav-item .nav-image {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+}
+
+.nav-item text {
+  padding-top: 20rpx;
+  font-size: 25rpx;
+}
+.brand{width: 94%; margin: 10px 3%; overflow: hidden; border-radius: 5px; border:1px solid #ddd; background: #fff;}
+.brand-left{ width: 40%; float: left; padding: 5px;}
+.brand-right{ width: 40%; float: right; border-left: 2px solid #ddd; padding: 5px;}
+.brand-left.am-icon-edit, .brand-right.am-icon-user-plus { font-size:20px; color: red; float: left; padding: 10px;}
+.brand-left .text{ float: left; }
+.brand-right .text{ float: right;}
+.brand-left .a{ font-weight: normal; font-size: 15px; color: #333;}
+.brand-left .b{ color: #666; font-size: 12px;}
+.brand-right .c{ font-weight: normal; font-size: 15px; color: #333;}
+.brand-right .d{ color: #666; font-size: 12px;}

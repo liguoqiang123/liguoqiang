@@ -1,0 +1,44 @@
+
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/weixin/test",
+    "pages/weixin/login",
+     "pages/weixin/cart"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "blue",
+    "navigationBarTitleText": "liguoqiang",
+    "navigationBarTextStyle":"black"
+  },
+"tabBar": {
+    "list": [{
+     "iconPath": "pages/images/ba.png",
+      "selectedIconPath": "pages/images/ba_active.png",
+      "pagePath": "pages/index/index",
+      "text": "首页"
+    }, {
+       "iconPath": "pages/images/ba.png",
+      "selectedIconPath": "pages/images/ba_active.png",
+      "pagePath": "pages/weixin/test",
+      "text": "个人中心"
+    }, {
+       "iconPath": "pages/images/profile.png",
+      "selectedIconPath": "pages/images/profile_active.png",
+      "pagePath": "pages/weixin/login",
+      "text": "我的"
+    },{
+       "iconPath": "pages/images/cart.png",
+      "selectedIconPath": "pages/images/cart_active.png",
+      "pagePath": "pages/weixin/cart",
+      "text": "购物"
+    }
+    
+    
+    
+    
+    ]
+  }
+}

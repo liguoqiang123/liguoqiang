@@ -1,0 +1,60 @@
+.order{
+    width: 94%; margin: 10px 3%;
+}
+.a{
+    border-radius: 5px; 
+    border:1px solid #ddd;
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 10px; 
+}
+.b{
+    border-bottom: 1px solid #ddd;
+     line-height: 45px; 
+     font-weight: normal; 
+     padding: 0 10px; 
+     overflow: hidden;
+}
+.b i{
+    height: 20px; 
+    width: 2px; 
+    background: #ff2c4c; 
+    float: left;
+     display: block; 
+     margin-top: 12px;
+}
+.b span{
+    float: left; margin-left: 10px; font-size: 16px;
+}
+.b b{
+    color: #ff2c4c; float: right; margin-right: 5px;  font-weight: normal; font-size: 15px;
+}
+.b em{
+   color: #999; float: right; font-size: 10px; font-style: normal; margin-right: 8px;
+}
+.b c{
+ 
+   line-height: 45px; font-weight: normal; padding: 0 10px; overflow: hidden;
+}
+.c image{
+     float: left;
+    width: 10%;
+    height: 15px;
+    vertical-align: -2px;
+}
+.d{
+  float: left; border-bottom: 1px solid #ddd; margin-left: 15px; width: 85%;
+}
+.e{
+    border-top:1px solid #ddd;
+     font-weight: normal; padding: 10px; overflow: hidden;
+}
+.e span{
+    color: #ff2c4c;  float: left; line-height: 35px;  font-size: 16px;
+}
+.e a{
+    float: right; border: 1px solid #ddd; line-height: 35px; border-radius: 5px; padding: 0 15px; margin-right: 5px;  display: inline-block;
+}
+.current{
+    background: #ff2c4c; color: #fff;
+}

@@ -1,0 +1,55 @@
+   <!--轮播展示-->
+  <swiper style="height:410rpx;" indicator-dots="true" autoplay="true" interval="5000" duration="1000">
+          <block  wx:for-items="{{luobo[0]}}" wx:key="name" >  
+            <swiper-item>  
+               <navigator url="{{item.link}}" hover-class="navigator-hover">  
+                <image src="{{item.url}}" class="slide-image" width="400" height="150"/>  
+               </navigator>   
+            </swiper-item>  
+          </block>  
+    </swiper> 
+    <!--八个图片-->
+     <view class="navs">
+      <block wx:for="{{nav[0]['first']}}">
+        <view class="nav-item" catchtap="catchTapCategory" data-type="{{item.name}}">
+          <image src="{{item.url}}" class="nav-image"/>
+          <text>{{item.name}}</text>
+        </view>
+       </block>
+    </view> 
+    <view class="navs">
+      <block wx:for="{{nav[0]['two']}}" wx:key="name">
+        <view class="nav-item" catchtap="catchTapCategory" data-type="{{item.name}}">
+          <image src="{{item.url}}" class="nav-image"/>
+          <text>{{item.name}}</text>
+        </view>
+      </block>
+    </view> 
+    <!--一张图片-->
+    
+<view>
+   <navigator url="{{tupian.link}}" hover-class="navigator-hover">  
+<image class="image_frame" src="{{tupian.url}}" mode="aspectFill" width="400" height="150">  </image>
+</navigator>
+</view>
+        
+ <view class="brand">  
+     <view>
+    	<view class="brand-left">
+      	<view class="am-icon-user-plus"></view>
+       	<view class="text">
+      	<view class="a">加盟我们</view>
+      <view class="b">共创大业、共享双赢</view>
+ 		</view>
+	</view>
+		<view class="brand-right">
+  		<view class="am-icon-edit"></view>
+   	  <view class="text">
+    	<view class="c">意见反馈</view>
+      <view class="d">让我们变得更好</view>
+		  </view>
+  	  </view>
+ </view>
+  </view>
+  
+         
